@@ -1,0 +1,13 @@
+# The provided script trims adapters from the provided fastq files using the
+# Trim Galore's auto-detection feature. The minimum length of a sequence after
+# trimming is defaulted to 20, edit this by adding flag -q <min_interger>,
+# this is an optional addition to the script. The script will output an array
+# of files that include the trimmed files named "base_val_#.fastq". 
+#
+# OPTIONAL: If you would like to analyze the quality of your sample, 
+# you can run the following:
+$nohup fastqc "base_val_#.fastq" >> fastqc_base.log &
+
+# The use of nohup and the "&" are optional and allows your command to be run
+# in the background. 
+
