@@ -6,3 +6,5 @@ $mv SRR8383482.sra ./ | rmdir SRR8383482/
 $mv SRR8383482.sra esc_k27me3.sra
 # Translate to fastq and split the files for paired end processing
 $fasterq-dump --split-files esc_k27me3.sra
+# Make a directory for script outputs if plan to run scripts in background
+$mkdir outputs
