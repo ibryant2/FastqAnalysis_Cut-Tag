@@ -10,6 +10,16 @@
 # Partners: NONE
 #
 # Sources: NONE
+# ctagData.sql
+# This database contains human Cut&Tag data from different cell types
+# and different targets. This data can be used throughout this whole pipeline
+# and assist the user in determining which samples to use.
+# At the bottom of the .sql file there are some example queries to help
+# the user find specific samples.
+
+# Usage:
+
+mysql username < ctagData.sql
 
 # SRA Processing
 # Use the steps in SRA processing files to retrieve and process the files.
