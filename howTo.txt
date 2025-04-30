@@ -21,6 +21,20 @@
 
 mysql username < ctagData.sql
 
+# Once the table is created you can access the table and perform queries.
+# Access myql.
+
+mysql
+
+USE username;
+# OPTIONAL: Check that table was created.
+
+SHOW tables;
+
+# OPTIONAL: Check if all data was entered properly.
+
+SELECT * FROM ctag_data;
+
 # SRA Processing
 # Use the steps in SRA processing files to retrieve and process the files.
 # You can use either prefetch or wget to retrive files.
