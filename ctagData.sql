@@ -11,6 +11,8 @@
 #
 # Sources: NONE
 
+# Usage: mysql username < ctagData.sql
+
 # Create the ctag_data table with parameters for each component. This table
 # will contain humen Cut&Tag data for two different cell types of and three
 # different targets. You can can compare the data between these samples by
