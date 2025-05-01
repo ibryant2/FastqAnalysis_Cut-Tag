@@ -11,7 +11,14 @@
 #
 # Sources: NONE
 
-# Usage: mysql username < ctagData.sql
+# Odin Usage: mysql username < ctagData.sql
+# I must use a conda environment on my lab server so my usage is: 
+# mysql -u root -p --socket=/Tango/iesha/.conda/envs/macs3/mysql.sock 
+    # --port=3307 < ctagData.sql
+
+# Create the database you would like to use if it does not exist then proceed with usage.
+CREATE DATABASE IF NOT EXISTS ibryant;
+USE ibryant;
 
 # Create the ctag_data table with parameters for each component. This table
 # will contain humen Cut&Tag data for two different cell types of and three
