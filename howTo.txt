@@ -36,19 +36,34 @@ ps aux | grep mysqld
 
 kill <pid_of_mysqld_process>
 
-nohup /Tango/iesha/.conda/envs/macs3/bin/mysqld_safe --defaults-file=./my_custom.cnf > mysql.out 2>&1 &
+nohup /Tango/iesha/.conda/envs/macs3/bin/mysqld_safe --./Tango/iesha/.conda/envs/macs3/my_custom.cnf > mysql.out 2>&1 &
+
+# Enter password:
+
+
+# Proceed to "USE username;" step below
+
+# FOR LAB/CONDA ONLY: ALWAYS KILL AFTER USE via steps below.
 
 ps aux | grep mysqld
 
 mysql -u root -p --socket=/Tango/iesha/.conda/envs/macs3/mysql.sock --port=3307
 
-# Enter password:
-# ALWAYS KILL AFTER USE via steps above.
-
-# Once the table is created you can access the table and perform queries.
 # Access myql.
 
+# Odin:
+
 mysql
+
+# Lab:
+
+mysql -u root -p --socket=/Tango/iesha/.conda/envs/macs3/mysql.sock --port=3307
+
+# Enter password
+
+
+
+# Once the table is created you can access the table and perform queries in mysql.
 
 USE username;
 
@@ -60,12 +75,16 @@ SHOW tables;
 
 SELECT * FROM ctag_data;
 
+# CHOOSE A SAMPLE OF YOUR CHOICE, I WILL BE USING SRR8383482.
+
 
 
 # SRA Processing
 # Use the steps in SRA processing files to retrieve and process the files.
-# You can use either prefetch or wget to retrive files.
-# Prefetch is the preferred method. Follow all instructions listed in below
+# You can use either prefetch or wget to retrieve files.
+# Prefetch is the preferred method. Follow all instructions listed below.
+
+
 
 # Prefetch SRA Processing
 # Download SRA file selected from the database, I will begin with SRR8383482.
