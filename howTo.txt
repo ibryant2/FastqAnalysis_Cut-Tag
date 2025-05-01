@@ -28,10 +28,12 @@ mysql username < ctagData.sql
 # Then I use specific parameters to access mysql to make amd access databases.
 
 # Lab Usage:
+# Navigate to conda environment folder (mine is called macs3)
+
 
 conda activate macs3
 
-/Tango/iesha/.conda/envs/macs3/bin/mysqld_safe --./Tango/iesha/.conda/envs/macs3/my_custom.cnf > mysql.out 2>&1
+/Tango/iesha/.conda/envs/macs3/bin/mysqld_safe --defaults-file=./my_custom.cnf > mysql.out 2>&1
 # Ctrl + Z + bg to run code in background.
 
 # Create table.
