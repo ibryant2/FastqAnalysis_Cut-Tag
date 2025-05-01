@@ -79,6 +79,10 @@ SHOW tables;
 SELECT * FROM ctag_data;
 
 # CHOOSE A SAMPLE OF YOUR CHOICE, I WILL BE USING SRR8383482.
+# You can copy the link or SRA/SRR (accession number).
+# Exit the program and proceed.
+
+exit;
 
 
 
