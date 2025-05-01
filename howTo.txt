@@ -18,9 +18,32 @@
 # At the bottom of the .sql file there are some example queries to help
 # the user find specific samples.
 
-# Usage:
+# Odin Usage:
 
 mysql username < ctagData.sql
+
+# My lab does not have mysql on the server so my usage is different.
+# I use my personal conda environment. I activate the environment.
+# Search for active mysql processes and kill any active.
+# Then i run the mysql server in the background.
+# Then I use specific parameters to access mysql.
+
+# Lab Usage:
+
+conda activate macs3
+
+ps aux | grep mysqld
+
+kill <pid_of_mysqld_process>
+
+nohup /Tango/iesha/.conda/envs/macs3/bin/mysqld_safe --defaults-file=./my_custom.cnf > mysql.out 2>&1 &
+
+ps aux | grep mysqld
+
+mysql -u root -p --socket=/Tango/iesha/.conda/envs/macs3/mysql.sock --port=3307
+
+# Enter password:
+# ALWAYS KILL AFTER USE via steps above.
 
 # Once the table is created you can access the table and perform queries.
 # Access myql.
