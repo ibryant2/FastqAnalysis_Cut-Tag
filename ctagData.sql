@@ -16,7 +16,8 @@
 # mysql -u root -p --socket=/Tango/iesha/.conda/envs/macs3/mysql.sock 
     # --port=3307 < ctagData.sql
 
-# Create the database you would like to use if it does not exist then proceed with usage.
+# Create the database you would like to use if it does not exist then proceed.
+    # Use your personal username (not mine) or whatever name you would like.
 CREATE DATABASE IF NOT EXISTS ibryant;
 USE ibryant;
 
