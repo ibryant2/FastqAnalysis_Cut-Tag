@@ -51,6 +51,7 @@ mysql -u root -p --socket=/Tango/iesha/.conda/envs/macs3/mysql.sock --port=3307
 mysql
 
 USE username;
+
 # OPTIONAL: Check that table was created.
 
 SHOW tables;
