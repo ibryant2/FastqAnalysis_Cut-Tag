@@ -185,6 +185,9 @@ nohup fastqc "base_val_#.fastq" >> outputs/fastqc_base.log &
 chmod +x sequenceExtraction.sh
 ./sequenceExtraction.sh >> outputs/sequenceExtraction.out
 
+# Background:
+
+nohup ./sequenceExtraction.sh >> outputs/sequenceExtraction.out &
 
 
 # analysis.py
