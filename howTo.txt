@@ -152,7 +152,7 @@ chmod +x trimGalore.sh
 # in the background.
 #
 # USAGE:
-
+chmod +x trimGalore.sh
 ./trimGalore.sh >> outputs/trimGalore.out
 
 # Backgroud:
@@ -181,12 +181,8 @@ nohup fastqc "base_val_#.fastq" >> outputs/fastqc_base.log &
 # This script removes all of those and makes a new file
 # with only the DNA sequence.
 
-# Activate script.
-
-chmod +x sequenceExtraction.sh
-
 # USAGE:
-
+chmod +x sequenceExtraction.sh
 ./sequenceExtraction.sh >> outputs/sequenceExtraction.out
 
 
