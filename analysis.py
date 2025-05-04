@@ -148,7 +148,7 @@ for i in range(0, len(rna_sequence) - 2, 3):
 print(f"\nFile: {filename} \nLine: {seq_line}")
 print("\nAnalysis: \nDNA Sequence (input): " + sequence +
       "\nDNA Sequence Length (nt): " + str(dna_length) +
-      "\nGC Content: " + str(GC_rounded) +
+      "\nGC Content: " + str(GC_rounded) + "%" +
       "\nRNA Sequence: " + rna_sequence)
 
 # Print the protein in proper length with a dash (-) between each AA.
