@@ -155,7 +155,7 @@ print("\nAnalysis: \nDNA Sequence (input): " + sequence +
 if mode == 1:
     print("\n1-letter Protein Translation:")
     protein_str = '-'.join(protein)
-    print(protein_str)
+    print(protein_str + "\n\n")
 
 elif mode == 3:
     print("\n3-letter Protein Translation:")
