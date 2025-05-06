@@ -25,7 +25,7 @@ mysql username < ctagData.sql
 # My lab does not have mysql on the server so my usage is different.
 # I use my personal conda environment. I activate the environment.
 # Then i run the mysql server in the background.
-# Then I use specific parameters to access mysql to make amd access databases.
+# Then I use specific parameters to access mysql to make and access databases.
 
 # Lab Usage:
 
