@@ -1,4 +1,5 @@
 # FastqAnalysis Cut&Tag
+# A project to analyze Cut&Tag data from sra or fastq format.
 This repository will help users to extract important aspects from a DNA Sequence. There will be instructions from the initial steps of retrieving SRA files down to a snapshot of the usable data from the provided sequence. There will be a database with example datasets to be used in the pipeline. The provided datasets will be Cut&Tag data on human cells in the study GSE124557 (which can be accessed via GEO). The database will provide users with the accession number, links to retrieve FASTQ files via wget, and characteristics about each sample.
 
 Before using, make sure all bash commands have proper permissions and are executable with chmod +x <script.sh>
