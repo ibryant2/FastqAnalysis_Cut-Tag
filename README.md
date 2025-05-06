@@ -5,7 +5,7 @@ Before using, make sure all bash commands have proper permissions and are execut
 
 The order of this pipeline will be as follows:
 
-1. howTo.txt
+1. [howTo.txt](https://github.com/ibryant2/FastqAnalysis_Cut-Tag/blob/main/howTo.txt)
    This file will provide users with pre-processing bash commands and additional details about each script.
    This file will also provide users with optional commands to make the data more usable.
 
