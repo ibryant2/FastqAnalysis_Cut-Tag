@@ -1,5 +1,5 @@
 # FastqAnalysis Cut&Tag
-# A project to analyze Cut&Tag data from SRA or FASTQ format.
+# A project to analyze Cut&Tag data from SRA or FASTQ files
 This repository will help users to extract important aspects from a DNA Sequence. There will be instructions from the initial steps of retrieving SRA files down to a snapshot of the usable data from the provided sequence. There will be a database with example datasets to be used in the pipeline. The provided datasets will be Cut&Tag data on human cells. 
 
 You can access the associated paper at https://pmc.ncbi.nlm.nih.gov/articles/PMC6488672/ and the data in the study can be accessed via NCBI GEO https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE124557 (GSE124557). The database will provide users with the characteristics of each sample, an SRA accession number, and links to retrieve FASTQ files via wget.
@@ -23,7 +23,7 @@ Once all data for the desired sample has been downloaded, a bash script trims ad
 Finally, Python is used for the final analysis of the desired sequences. The provided Python script utilizes the sys.argv tool to facilitate command-line and program interaction. The user can specify the Python tool, script, DNA sequence file, the desired amino acid sequence code (one- or three-letter), and the line for analysis. The script includes several parameters to ensure that the input is in the correct format and returns an error code if it is not.
 Once the input is validated, the script opens the input file and uses the readline() function to read the selected line. Basic Python assignment and print functions are used for most of the analysis, while Python dictionaries are employed for sequence translation. The final output includes the filename and file position of the input, the DNA sequence, DNA sequence length, GC content (%), RNA transcript sequence, and protein translation sequence in either one- or three-letter amino acid codes.
 
-# Pipeline
+# Workflow
 Before using, make sure all bash commands have proper permissions and are executable with chmod +x <script.sh>
 
 The order of this pipeline will be as follows:
