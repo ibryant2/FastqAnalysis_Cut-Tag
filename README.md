@@ -44,6 +44,14 @@ The order of this pipeline will be as follows:
    This python script will analyze a DNA Sequence (1 line from the .txt file) of the user's choice.
    The information will print to the screen unless directed otherwise (instructions in howTo.txt).
 
+# Users:
+- Laboratory/genomics staff (technicians, lab managers, etc)
+- Graduate students who want to analyze the signal of a certain target in translated proteins after treatments
+- Faculty and principal investigators (PIs) who want a quick glance at their results
+- Anyone who is interested in cut and tag or bioinformatics analysis
+
+ The pipeline can also be used to compare different sequencing methods.
+
 
 # Resources:
 If your server does not have a tool that is used in the repository, you can create an individual conda environment to use that tool. Below is the link to conda environment that provides details of use.
