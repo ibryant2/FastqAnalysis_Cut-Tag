@@ -45,4 +45,5 @@ The order of this pipeline will be as follows:
 
 # Resources:
 If your server does not have a tool that is used in the repository, you can create an individual conda environment to use that tool. Below is the link to conda environment that provides details of use.
+
 https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
