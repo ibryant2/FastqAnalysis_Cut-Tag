@@ -1,5 +1,7 @@
 # FastqAnalysis Cut&Tag
-# A project to analyze Cut&Tag data from SRA or FASTQ files
+_A project to analyze Cut&Tag data from SRA or FASTQ files_
+
+# Usage
 This repository will help users to extract important aspects from a DNA Sequence. There will be instructions from the initial steps of retrieving SRA files down to a snapshot of the usable data from the provided sequence. There will be a database with example datasets to be used in the pipeline. The provided datasets will be Cut&Tag data on human cells. 
 
 You can access the associated paper at https://pmc.ncbi.nlm.nih.gov/articles/PMC6488672/ and the data in the study can be accessed via NCBI GEO https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE124557 (GSE124557). The database will provide users with the characteristics of each sample, an SRA accession number, and links to retrieve FASTQ files via wget.
