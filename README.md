@@ -6,28 +6,33 @@ Before using, make sure all bash commands have proper permissions and are execut
 
 The order of this pipeline will be as follows:
 
+**A step-by-step guide**
 1. [howTo.txt](https://github.com/ibryant2/FastqAnalysis_Cut-Tag/blob/main/howTo.txt)
    This file will provide users with pre-processing bash commands and additional details about each script.
    This file will also provide users with optional commands to make the data more usable.
 
-2. ctagData.sql
+**A working database implementation**
+2. [ctagData.sql](https://github.com/ibryant2/FastqAnalysis_Cut-Tag/blob/main/ctagData.sql)
    This sql database will create the table (ctag_data) and provide the user with a few useful queries.
    The database can be used to isolate specific samples and help the user decide which samples to analyze.
    Usage is provided in the howTo.txt file.
-
-4. TrimGalore.sh
+   
+**Two reproducible bash shell scripts (1/2)**
+3. [TrimGalore.sh](https://github.com/ibryant2/FastqAnalysis_Cut-Tag/blob/main/trimGalore.sh)
    This bash script will trim adapters from the FASTQ files after initial processing is complete.
    Users will need to define the samples within the script before execution.
    There is an example of how to do this in the comment.
    Currently, the example sample (esc_k27me3) is in the sample position, but it can be changed.
    You can add multiple samples for the script to dynamically loop through.
 
-5. sequenceExtraction.sh
+**Two reproducible bash shell scripts (2/2)**
+4. [sequenceExtraction.sh](https://github.com/ibryant2/FastqAnalysis_Cut-Tag/blob/main/sequenceExtraction.sh)
    This bash script will extract the DNA Sequences from both forward and reverse strands of each sample.
    The DNA sequences from both forward and reverse strands will be combined into a single .txt file.
    If the user would like to only use one strand, they can remove the second input option from the script.
    Multiple samples can be input and looped dynamically.
 
-6. analysis.py
+**A Python script for data analysis**
+5. [analysis.py](https://github.com/ibryant2/FastqAnalysis_Cut-Tag/blob/main/analysis.py)
    This python script will analyze a DNA Sequence (1 line from the .txt file) of the user's choice.
    The information will print to the screen unless directed otherwise (instructions in howTo.txt).
