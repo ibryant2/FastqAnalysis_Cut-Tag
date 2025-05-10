@@ -52,6 +52,13 @@ The order of this pipeline will be as follows:
 
  The pipeline can also be used to compare different sequencing methods.
 
+# Implementation Constraints
+- Only optimal for smaller datasets
+- Difficult to determine which sequences to analyze
+- Requires at least 1 GB of space (depending on data size)
+- Does not provide full analysis, only snapshot
+- No visualization provided, only analysis
+
 
 # Resources:
 If your server does not have a tool that is used in the repository, you can create an individual conda environment to use that tool. Below is the link to conda environment that provides details of use.
