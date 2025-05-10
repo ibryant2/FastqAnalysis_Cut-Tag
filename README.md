@@ -18,7 +18,8 @@ You can access the associated paper at https://pmc.ncbi.nlm.nih.gov/articles/PMC
 
 ![image](https://github.com/user-attachments/assets/5a77511e-a423-4280-ad3a-fc54b46147fb)
 
-**Photo Credit: ** Cell Signaling Technology. CUT&Tag Overview: Profile Chromatin Faster [Internet]. Cell Signaling Technology. 2025 [cited 2025 May 10]. Available from: https://www.cellsignal.com/applications/cut-tag-overview
+** Photo Credit:**
+Cell Signaling Technology. CUT&Tag Overview: Profile Chromatin Faster [Internet]. Cell Signaling Technology. 2025 [cited 2025 May 10]. Available from: https://www.cellsignal.com/applications/cut-tag-overview
 
    After the completion of Cut&Tag, PCR is used to bind adapters and amplify the tagmented regions. These adapters are short oligonucleotides that enable sample recognition by sequencing instruments. Once PCR is complete, library quality is preliminarily assessed, and sequencing is typically performed by a third-party service. Post-sequencing, samples require downstream analysis to interpret the data. This repository serves as a practical guide to quickly analyze specific DNA regions from Cut&Tag data. A step-by-step guide (howTo.txt) is included to walk users through setup and execution of the pipeline. Please read the guide in its entirety before use.
    
