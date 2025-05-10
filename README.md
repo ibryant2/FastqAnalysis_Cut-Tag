@@ -41,3 +41,8 @@ The order of this pipeline will be as follows:
 5. [analysis.py](https://github.com/ibryant2/FastqAnalysis_Cut-Tag/blob/main/analysis.py)
    This python script will analyze a DNA Sequence (1 line from the .txt file) of the user's choice.
    The information will print to the screen unless directed otherwise (instructions in howTo.txt).
+
+
+# Resources:
+If your server does not have a tool that is used in the repository, you can create an individual conda environment to use that tool. Below is the link to conda environment that provides details of use.
+https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
