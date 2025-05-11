@@ -24,6 +24,7 @@ The binding of these markers and analysis of gene expression after treatment can
 This project will guide you through the process of this analyzing this type of data and help you to visualize the differences in treatment and control samples. 
 
 
+OBJECTIVES:
 
 1. Guide to trim data and align the samples with bowtie2 indexes of a host species.
 
@@ -69,8 +70,6 @@ and to be as thoroughly detailed as possible. I am projecting this will take a f
 
 
 Project Update:
-
-
 
 OBJECTIVES:
 
@@ -120,6 +119,7 @@ what i should use as script comments inside the script and what parts to have in
 
 
 Final Project
+
 As you can see there were many changes to this project between the proposal, update, and final output.
 The initial proposed project was completely changed due to the lack of Python and MySQL use. These changes were influenced by the skills learned throughout the course.
 A lot of the proposed ideas were not tools or skills ever addressed in class, and the project was modified to better relate to the course.
