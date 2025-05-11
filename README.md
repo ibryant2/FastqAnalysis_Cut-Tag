@@ -1,7 +1,7 @@
 # FastqAnalysis Cut&Tag
 _A project to analyze Cut&Tag data from SRA or FASTQ files_
 
-The [Project_Changes.txt](https://github.com/ibryant2/FastqAnalysis_Cut-Tag/blob/main/Project_Changes.txt) file provides an overview of the changes to the project between the proposal, update, and final project.
+The [projectChanges.txt](https://github.com/ibryant2/FastqAnalysis_Cut-Tag/blob/main/projectChanges.txt) file provides an overview of the changes to the project between the proposal, update, and final project.
 
 # Usage
 This repository will help users to extract important aspects from a DNA Sequence. There will be instructions from the initial steps of retrieving SRA files down to a snapshot of the usable data from the provided sequence. There will be a database with example datasets to be used in the pipeline. The provided datasets will be Cut&Tag data on human cells. 
