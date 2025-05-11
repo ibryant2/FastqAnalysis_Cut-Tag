@@ -1,0 +1,154 @@
+Project Proposal:
+
+What is the proposed title of the project?
+Please provide a concise, specific, and descriptive name emphasizing your final project submission. 
+
+Comparing the binding sites of histone modifications between treatment and control samples
+
+Overview of your proposed project
+
+This project will be a simplified guide and pipeline through experimental sequencing data. It will lead you through 
+trimming sequence adapters, bowtie alignments, and the production of bigwig files. These files will generate descriptive 
+data of the sequenced samples and define where the histone modifications are binding to the DNA of the samples. 
+Next, you will be guided through the production of a visualization of the data generated.
+
+(I have not decided what kind of sequencing -- thinking cut and run, cut and tag or chip-seq, will depend on data accessibility).
+
+(Additionally, I have not decided what type of visualization to use, I am considering heatmaps, metagene plots, or maybe igv, or 
+another visual tool. I may also guide in narrowPeak production but I am not sure about this part yet.)
+
+What background information is necessary to understand your project?
+Histone modifications are epigenetic markers that can be related to the expression of genes. Analyzing the binding sites of these markers 
+after specific treatments can help identify the influence that such treatments may have on these markers and in turn, gene expression. 
+The binding of these markers and analysis of gene expression after treatment can be compared to control samples to indicate the direct changes made. 
+This project will guide you through the process of this analyzing this type of data and help you to visualize the differences in treatment and control samples. 
+
+
+
+1. Guide to trim data and align the samples with bowtie2 indexes of a host species.
+
+What will be accomplished?
+This will be a guide through trimming and aligning sequences to a reference genome.
+
+How will we know when this is done?
+This will be measured by the production of sam files.
+
+Can we do this and when?
+Yes, could be done within a week of retrieving sample data.
+
+
+2. Create bam files from the aligned data and then use the bam files to generate bigwig files
+
+What will be accomplished?
+The user will learn to use samtools to view, create bam files, sort, and index. 
+All of this preprocessing will be done to then be used in the generation of the bamfiles using bamcoverage.
+
+How will we know when this is done?
+This will be done once the files are all generated, and we have official bigwig files for both treatment and control samples.
+
+Can we do this and when?
+Yes, could be done within a day or so after alignment.
+
+
+3. Visualize and interpret data
+
+What will be accomplished?
+The user will learn how to both visualize and interpret the data. I will provide a detailed step by step and full guide of 
+how to interpret the sample data and hopefully this can be expanded to be more general for other samples the user may encounter 
+in the future. The user can use the visualization for figure production.
+
+How will we know when this is done?
+This will be measured by the production of figures and a written document of how to interpret the data.
+
+Can we do this and when?
+Yes, I am not sure how long this will take as I would like the document to include nearly all possible aspects of interpretation 
+and to be as thoroughly detailed as possible. I am projecting this will take a few weeks (maybe 2-3). 
+
+
+
+
+
+Project Update:
+
+
+
+OBJECTIVES:
+
+1. Explain improtant components that can be extracted via biological data
+
+What will be accomplished?
+I will provide a few paragraphs explaining the different components that can be extracted from fastq files 
+(GC content, rna sequences, amino acids, etc.). This portion will be used to explain what the script will extract, why it is important 
+and why it can be used. I plan to discuss in our meeting which specific components will be best to use in the script.
+
+How will we know when this is done?
+This will be measured by the completion of the "word doc," and by the presence of thorough analysis of each component. I would like to 
+ensure I answer the following questions for each factor. 
+What is it, how it is determined, why it is important, and give a few examples of when it can be used and how. I will discuss with Dr. Copper 
+if any additional questions many need to be addressed in this section.
+
+Can we do this and when?
+Yes, can begin working on this portion immediately after choosing the most important pieces to analyze.
+
+
+2. Script generation and usage
+
+What will be accomplished?
+I will prepare a downloadable script that can be used on any dataset. This script will quickly analyze the data and provide a snap shot of 
+the most important details of the data provided in fastq format. Additionally, I will walk them through the paramaters of the script and how to run it. 
+Finally, I will provide another section/"word doc" explaining each aspect of this script and how each part works.
+
+How will we know when this is done?
+This will be measured by the availability of the script and the completeness of the explanation portion. 
+As mentioned in objective one, I will answer questions that will judge the completeness. I will walk through the script line by line and explain: 
+how the code works, what it does, and what part of the analysis the code provides.
+
+Can we do this and when?
+Yes, this can be done after each component of the analysis is explained. I want the user to understand why they are doing what they are 
+doing before just using the script. 
+
+Objective 1: Deliverable - word doc with full analysis. Outcome - questions listed in objective answered in "word doc": Explain what 
+the script will extract, why it is important, and why it can be used. I plan to discuss in our meeting which specific components will be best 
+to use in the script.
+
+Objective 2: Deliverable - python script and a "word doc". Outcome - the Python script runs as expected with no errors and the questions in the objective 
+description are answered: how the code works, what it does, and what part of the analysis the code provides. However, this may be challenging for me to decide 
+what i should use as script comments inside the script and what parts to have in the additional explanation.
+
+
+
+
+
+Final Project
+As you can see there were many changes to this project between the proposal, update, and final output.
+The initial proposed project was completely changed due to the lack of Python and MySQL use. These changes were influenced by the skills learned throughout the course.
+A lot of the proposed ideas were not tools or skills ever addressed in class, and the project was modified to better relate to the course.
+The project update was more in alignment with the final project but still had many changes. The idea of the analysis and goals remained relatively consistent.
+However, the premise and execution of the project changed. This change was made due to a discussion with Dr. Cooper. I wanted the project to be more focused on
+programming than background so that it could be a well-documented portfolio of my skills. I also needed to incorporate MySQL into the project. 
+While there is some background information, the project is not as background-heavy as the project update explains.
+
+
+OBJECTIVES:
+1. Trim adapters from FASTQ files and extract DNA sequences.
+What will be accomplished?
+The user will be able to retrieve SRA and/or FASTQ files, trim adapters, and extract DNA sequences from the trimmed files.
+
+How will we know when this is done?
+There will be a MySQL database table generated to provide the user with samples to use for the pipeline. Along with a few sample queries.
+Bash scripts will be used to trim adapters and extract sequences.
+
+
+2. Sequence Analysis
+
+What will be accomplished?
+The user will be able to input a python script, DNA sequence file, desired letter count for amino acids, and the line the user wants to analyze.
+The program will output the filename, line analyzed, DNA sequence, DNA sequence length, GC content (%), RNA transcript sequence, and the translated protein sequence
+in 1 or 3 letter amino acid format.
+
+
+How will we know when this is done?
+This will be measured by the completion of each script and its function without error code outputs from the server. 
+MySQL
+Bash x 2
+Python
