@@ -16,9 +16,20 @@ You can access the associated paper at https://pmc.ncbi.nlm.nih.gov/articles/PMC
    Cut&Tag is a sequencing assay used to study protein-chromatin interactions, map chromatin structure, and characterize complex epigenomic relationships. Cut&Tag is rapidly gaining popularity due to its high sensitivity, timeliness, and cost-efficiency [(2)](https://www.nature.com/articles/s41596-020-0373-x). It is best suited for post-translational modifications (PTMs), such as histone modifications, due to minimized background signals, reduced artificial enrichment of expression, and low cellular input requirements [(3)](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02707-w). PTMs are epigenetic changes to that alter gene expression without changing the DNA structure itself.
 ![image](https://github.com/user-attachments/assets/a44fcb21-36db-467c-aeac-e3f0527739e2)
  Profiling of PTMs is critical to understand the epigenetic changes in samples and provide specific gene expression information. These changes in expression can be linked to many traits, diseases, etc.
-   
-   While Cut&Tag is the leading method for profiling PTMs, it is less compatible with certain protein-chromatin interaction analyses, particularly those with low abundance [(4)](https://www.epicypher.com/resources/blog/cut-and-run-vs-cut-and-tag-which-one-is-right-for-you/). High salt washes in the method can disrupt protein interactions and may strip away loosely or transiently bound proteins, complicating preliminary library quality assessment. Although not the most optimal under these conditions, studies demonstrate that high mapping NGS signals persist [(5)](https://www.cellsignal.com/learn-and-support/frequently-asked-questions/cut-and-tag-faqs). Selecting the appropriate sequencing protocol depends on experimental samples and analytical goals; however, many resources are publicly available to guide the decision-making process [(4)](https://www.epicypher.com/resources/blog/cut-and-run-vs-cut-and-tag-which-one-is-right-for-you/).
-   
+
+**PTM Example: Histone Modifications**
+
+![image](https://github.com/user-attachments/assets/c6c98cdc-5f0a-4554-a4e9-4e40e74c372f)
+
+**Photo Credit:** Zhou VW, Goren A, Bernstein BE. Charting histone modifications and the functional organization of mammalian genomes. Nature Reviews Genetics. 2010 Nov 30;12(1):7–18.
+
+   While Cut&Tag is the leading method for profiling PTMs, it is less compatible with certain protein-chromatin interaction analyses, particularly those with low abundance [(4)](https://www.epicypher.com/resources/blog/cut-and-run-vs-cut-and-tag-which-one-is-right-for-you/). High salt washes in the method can disrupt protein interactions and may strip away loosely or transiently bound proteins, complicating preliminary library quality assessment. Although not the most optimal under these conditions, studies demonstrate that high mapping NGS signals persist [(5)](https://www.cellsignal.com/learn-and-support/frequently-asked-questions/cut-and-tag-faqs). Selecting the appropriate sequencing protocol depends on experimental samples and analytical goals; however, many resources are publicly available to guide the decision-making process [(4)](https://www.epicypher.com/resources/blog/cut-and-run-vs-cut-and-tag-which-one-is-right-for-you/)
+‌
+**Library Quality Differences**
+![image](https://github.com/user-attachments/assets/4e860efc-70ba-49e9-9d82-219b62d90cfa)
+
+**Photo Credit:** https://www.stratech.co.uk/epicypher/the-complete-guide-to-cuttag-experiments/  (only link due to trouble accessing full website in country. Could only see picture on google)
+
    The advantages and limitations of Cut&Tag are tied to the methods it employs. Cells or isolated nuclei are first washed and bound to Concanavalin A Beads. Once samples are bead-bound, they are treated with a primary antibody followed by treatment with a secondary antibody. The antibody-treated samples then undergo a series of washes with digitonin-based buffers, which allow for sample permeabilization. Tn5 uses the antibody targets as a guide to bind the sample. A tagmentation buffer is subsequently used to activate Tn5 through specific ionic and thermal conditions. Finally, Tn5 cleaves the targeted region, and the DNA is purified for analysis. Below, there is an illustration of these methods [(6)](https://www.cellsignal.com/applications/cut-tag-overview).
    
 
