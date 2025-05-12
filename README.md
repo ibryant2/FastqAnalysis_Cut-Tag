@@ -110,3 +110,6 @@ https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environme
 6.	Cell Signaling Technology. CUT&Tag Overview: Profile Chromatin Faster [Internet]. Cell Signaling Technology. 2025 [cited 2025 May 10]. Available from: https://www.cellsignal.com/applications/cut-tag-overview
 7.	NCBI. File Format Guide [Internet]. www.ncbi.nlm.nih.gov. Available from: https://www.ncbi.nlm.nih.gov/sra/docs/submitformats/
 8.	FelixKrueger. What do these output files mean? · Issue #60 · FelixKrueger/TrimGalore [Internet]. GitHub. 2021 [cited 2025 May 10]. Available from: https://github.com/FelixKrueger/TrimGalore/issues/60
+9.	Zhou VW, Goren A, Bernstein BE. Charting histone modifications and the functional organization of mammalian genomes. Nature Reviews Genetics. 2010 Nov 30;12(1):7–18.
+10. https://www.stratech.co.uk/epicypher/the-complete-guide-to-cuttag-experiments/  (only link due to trouble accessing full website in country. Could only see picture on google)
+
