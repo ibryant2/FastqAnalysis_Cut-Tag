@@ -24,8 +24,10 @@ You can access the associated paper at https://pmc.ncbi.nlm.nih.gov/articles/PMC
 **Photo Credit:** Zhou VW, Goren A, Bernstein BE. Charting histone modifications and the functional organization of mammalian genomes. Nature Reviews Genetics. 2010 Nov 30;12(1):7–18.
 
    While Cut&Tag is the leading method for profiling PTMs, it is less compatible with certain protein-chromatin interaction analyses, particularly those with low abundance [(4)](https://www.epicypher.com/resources/blog/cut-and-run-vs-cut-and-tag-which-one-is-right-for-you/). High salt washes in the method can disrupt protein interactions and may strip away loosely or transiently bound proteins, complicating preliminary library quality assessment. Although not the most optimal under these conditions, studies demonstrate that high mapping NGS signals persist [(5)](https://www.cellsignal.com/learn-and-support/frequently-asked-questions/cut-and-tag-faqs). Selecting the appropriate sequencing protocol depends on experimental samples and analytical goals; however, many resources are publicly available to guide the decision-making process [(4)](https://www.epicypher.com/resources/blog/cut-and-run-vs-cut-and-tag-which-one-is-right-for-you/)
+
 ‌
 **Library Quality Differences**
+
 ![image](https://github.com/user-attachments/assets/4e860efc-70ba-49e9-9d82-219b62d90cfa)
 
 **Photo Credit:** https://www.stratech.co.uk/epicypher/the-complete-guide-to-cuttag-experiments/  (only link due to trouble accessing full website in country. Could only see picture on google)
